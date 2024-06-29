@@ -1,0 +1,130 @@
+#contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+
+#contact .getin {
+    width: 350px;
+}
+
+#contact .getin h2 {
+    font-size: 30px;
+    color: #2c234d;
+    font-weight: 800;
+    line-height: .8;
+    margin-bottom: 16px;
+}
+
+#contact .getin p {
+    color: #686875;
+    line-height: 24px;
+    border-bottom: 1px solid #e5e4ed;
+    margin-bottom: 33px;
+    padding-bottom: 25px;
+}
+
+#contact .getin .getin-details h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2c234d;
+}
+
+#contact .getin .getin-details div {
+    display: flex;
+}
+
+#contact .getin .getin-details .get {
+    font-size: 16px;
+    line-height: 22px;
+    color: #5838fc;
+    margin-right: 20px;
+}
+
+#contact .getin .getin-details div p {
+    font-size: 14px;
+    border-bottom: none;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+#contact .getin .getin-details .pro-link i {
+    margin-right: 8px;
+}
+
+#contact .form {
+    width: 60%;
+    background: #f7f6fa;
+    padding: 40px;
+    border-radius: 10px;
+    background: #0e0040;
+}
+
+#contact .form h4 {
+    font-size: 24px;
+    color: #767676;
+    line-height: 30px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contact .form p {
+    color: #686875;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+#contact .form .form-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .form .form-row input {
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background: #fff;
+    color: #7e7c87;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form .form-col input,
+#contact .form .form-col textarea {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background: #fff;
+    color: #7e7c87;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form button {
+    font-size: 0.9rem;
+    padding: 13px 25px;
+    background: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(21, 21, 100);
+}
+
+.map{
+    width: 100%;
+}

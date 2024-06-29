@@ -1,10 +1,10 @@
 /* General Styling */
-.navbar {
+.cus-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: .5em 2rem;
-  background-color: #111;
+  background-color: #1c1c1c;
 }
 
 .logo {
@@ -12,26 +12,27 @@
 }
 
 /* Navigation Links */
-.nav-links {
+.navlinks {
   list-style: none;
   display: flex;
   gap: 2rem;
 }
 
-.nav-links UL {
+.navlinks ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  padding-bottom: 5px;
-  
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
-.nav-links li {
+.navlinks li {
   font-size: 1.2rem;
-  margin: 5px;
+  /* margin: 5px; */
   color: white;
 }
-.nav-links li a{
+.navlinks li a{
     color: white;
     text-decoration: none;
   transition: color 0.3s;
@@ -39,7 +40,7 @@
 }
 
 
-.nav-links li a:hover {
+.navlinks li a:hover {
   color: #8f8f8f;
 }
 
@@ -63,14 +64,14 @@
 }
 
 
-.navbar img{
-    width: 7%;
+.cus-nav img{
+  width: 5%;
     border-radius: 50%;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .navbar {
+  .cus-nav {
     flex-direction: column;
     align-items: flex-start;
   }
